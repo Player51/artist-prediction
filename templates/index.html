@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artist Prediction</title>
     <link rel="stylesheet" href="../static/style.css">
+    <style>
+        li {
+            text-align: left;
+            padding-bottom: 5px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
     <h1>Welcome to the Artist Prediction App!</h1>
@@ -12,9 +19,21 @@
         <label for="file">Upload an Image of Artwork:</label>
         <input type="file" name="file" accept="image/*" required>
         <button type="submit">Submit</button>
-        <h2>upload an art work of one of the artists here: </h2>
         <br>
-        <h3>'Cezanne', 'Degas', 'Gauguin', 'Hassam', 'Matisse', 'Monet', 'Pissarro', 'Renoir', 'VanGogh', 'Sargent'</h3>
+
     </form>
+    <h2>The artists my AI knows: </h2>
+    <ul>
+        <li>Cezanne</li>
+        <li>Degas</li>
+        <li>Gauguin</li>
+        <li>Hassam</li>
+        <li>Matisse</li>
+        <li>Monet</li>
+        <li>Pissarro</li>
+        <li>Renoir</li>
+        <li>VanGogh</li>
+        <li>Sargent</li>
+    </ul>
 </body>
 </html>
