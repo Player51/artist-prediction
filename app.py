@@ -87,4 +87,5 @@ def predict_artist(image_path):
     return f"{predicted_label} ({confidence:.2%} confidence)"
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
